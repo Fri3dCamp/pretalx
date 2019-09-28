@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-28 13:24+0000\n"
-"PO-Revision-Date: 2019-09-28 23:26+0200\n"
+"PO-Revision-Date: 2019-09-29 00:09+0200\n"
 "Last-Translator: Toon Van de Putte\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -24,7 +24,7 @@ msgstr "Bedankt voor je feedback!"
 
 #: pretalx/agenda/phrases.py:9
 msgid "Thanks, we (and our speakers) appreciate your feedback!"
-msgstr "Bedankt, wij (en onze sprekers) waarderen uw feedback!"
+msgstr "Bedankt, wij (en onze sprekers) waarderen je feedback!"
 
 #: pretalx/agenda/phrases.py:12
 msgid ""
@@ -68,7 +68,7 @@ msgstr "Helaas moesten we de sessies annuleren:"
 
 #: pretalx/agenda/phrases.py:23
 msgid "We sadly had to cancel a talk: "
-msgstr "Helaas moesten we de sessie annuleren:"
+msgstr "Helaas moesten we de sessie annuleren: "
 
 #: pretalx/agenda/phrases.py:24
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: pretalx/agenda/phrases.py:25
 msgid "We have moved a talk around: "
-msgstr "We hebben een sessie verplaatst:"
+msgstr "We hebben een sessie verplaatst: "
 
 #: pretalx/agenda/phrases.py:27
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:76
@@ -91,7 +91,7 @@ msgstr "Feedback"
 #: pretalx/agenda/phrases.py:28
 msgid "This review is for you personally, not for all speakers in this talk."
 msgstr ""
-"Deze beoordeling is voor u persoonlijk, niet voor alle sprekers in deze "
+"Deze beoordeling is voor jou persoonlijk, niet voor alle sprekers in deze "
 "sessie."
 
 #: pretalx/agenda/phrases.py:29
@@ -116,8 +116,8 @@ msgid ""
 msgstr ""
 "Beoordelingen zijn een waardevol hulpmiddel voor sprekers om hun inhoud en "
 "presentatie te verbeteren. Zelfs een zeer korte beoordeling kan zeer "
-"waardevol zijn voor een spreker – maar we willen u vragen om de tijd te "
-"nemen en een constructieve manier te vinden om uw feedback te communiceren."
+"waardevol zijn voor een spreker – maar we willen je vragen om de tijd te "
+"nemen en een constructieve manier te vinden om je feedback te communiceren."
 
 #: pretalx/agenda/phrases.py:39
 msgid "You can't give feedback for this talk at this time."
@@ -278,7 +278,7 @@ msgstr "Zie ook:"
 
 #: pretalx/agenda/templates/agenda/talk.html:126
 msgid "This talk's header image"
-msgstr ""
+msgstr "De header afbeelding van deze sessie"
 
 #: pretalx/agenda/templates/agenda/talk.html:136
 #: pretalx/orga/templates/orga/submission/review.html:88
@@ -294,7 +294,7 @@ msgstr "Taal"
 
 #: pretalx/agenda/templates/agenda/talks.html:30
 msgid "No talk matches your search."
-msgstr ""
+msgstr "Geen enkele sessie komt overeen met je zoekopdracht."
 
 #: pretalx/agenda/views/schedule.py:141
 msgid "No speakers"
@@ -303,15 +303,17 @@ msgstr "Geen sprekers"
 #: pretalx/agenda/views/schedule.py:320
 msgid "Our schedule is not live yet, but we have this sneak peek available!"
 msgstr ""
+"Onze planning is nog niet live, maar we hebben deze sneak peek beschikbaar!"
 
 #: pretalx/agenda/views/sneakpeek.py:27
 msgid "Our sneak peek has been disabled because we have published a schedule!"
 msgstr ""
+"Onze sneak peek is uitgeschakeld omdat we een schema hebben gepubliceerd!"
 
 #: pretalx/agenda/views/talk.py:143
 #, python-brace-format
 msgid "The talk “{title}” at {event}"
-msgstr ""
+msgstr "De sessie \"{title}\" op {event}"
 
 #: pretalx/cfp/forms/auth.py:30 pretalx/person/forms.py:232
 msgid "New password"
@@ -319,7 +321,7 @@ msgstr "Nieuw wachtwoord"
 
 #: pretalx/cfp/forms/submissions.py:6
 msgid "Speaker E-Mail"
-msgstr ""
+msgstr "E-Mail van spreker"
 
 #: pretalx/cfp/forms/submissions.py:7 pretalx/mail/models.py:33
 #: pretalx/mail/models.py:179
@@ -338,7 +340,7 @@ msgstr "Tekst"
 #: pretalx/submission/models/submission.py:606
 #, python-brace-format
 msgid "{speaker} invites you to join their talk!"
-msgstr ""
+msgstr "{speaker} nodigt je uit om naar hun sessie te komen!"
 
 #: pretalx/cfp/forms/submissions.py:18
 #: pretalx/submission/models/submission.py:611
@@ -357,6 +359,19 @@ msgid ""
 "I'm looking forward to it!\n"
 "{speaker}"
 msgstr ""
+"Hallo!\n"
+"\n"
+"Ik wil je uitnodigen om een spreker te zijn in de sessie\n"
+"\n"
+"\n"
+"  “{title}”\n"
+"\n"
+"op {event}. Volg deze link om lid te worden:\n"
+"\n"
+"  {url}\n"
+"\n"
+"Ik kijk er naar uit!\n"
+"{speaker}"
 
 #: pretalx/cfp/phrases.py:9
 msgid ""
@@ -365,16 +380,22 @@ msgid ""
 "instructions. If you don't see the email within the next minutes, check your "
 "spam inbox!"
 msgstr ""
+"Als we een gebruiker kennen door dit e-mailadres (die in de afgelopen 24 uur "
+"niet om een wachtwoord heeft gevraagd), sturen we je een e-mail met verdere "
+"instructies. Als je de e-mail niet binnen enkele minuten ziet, kijk dan "
+"zeker ook even in je spam-folder."
 
 #: pretalx/cfp/phrases.py:13
 msgid ""
 "This link was not valid. Make sure you copied the complete URL from the "
 "email and that the email is no more than 24 hours old."
 msgstr ""
+"Deze link is niet geldig. Zorg ervoor dat je de volledige URL uit de e-mail "
+"hebt gekopieerd en dat de e-mail niet meer dan 24 uur oud is."
 
 #: pretalx/cfp/phrases.py:16
 msgid "Awesome! You can now log in using your new password."
-msgstr ""
+msgstr "Geweldig! Je kunt nu inloggen met je nieuwe wachtwoord."
 
 #: pretalx/cfp/phrases.py:19
 msgid ""
@@ -382,45 +403,52 @@ msgid ""
 "excellent support for English in pretalx, but if you encounter issues or "
 "errors, please contact us!"
 msgstr ""
+"Uw landinstellingen zijn opgeslagen. We doen ons best om een zo goed "
+"mogelijke Nederlandse vertaling te maken, maar als je problemen of fouten "
+"tegenkomt, neem dan contact met ons op!"
 
 #: pretalx/cfp/phrases.py:23
 msgid "Your submission has been withdrawn."
-msgstr ""
+msgstr "Je inzending werd ingetrokken."
 
 #: pretalx/cfp/phrases.py:24
 msgid ""
 "Your submission can't be withdrawn at this time – please contact us if you "
 "need to withdraw your submission!"
 msgstr ""
+"Je inzending kan op dit moment niet worden ingetrokken-Neem contact met ons "
+"op als je je inzending moet intrekken!"
 
 #: pretalx/cfp/phrases.py:25
 msgid ""
 "Your submission has been confirmed – we're looking forward to seeing you!"
-msgstr ""
+msgstr "Je inzending is bevestigd – we kijken ernaar uit je te zien!"
 
 #: pretalx/cfp/phrases.py:26
 msgid ""
 "This submission has already been confirmed – we're looking forward to seeing "
 "you!"
-msgstr ""
+msgstr "Deze inzending is al bevestigd – we kijken ernaar uit je te zien!"
 
 #: pretalx/cfp/phrases.py:27
 msgid ""
 "This submission cannot be confirmed at this time – please contact us if you "
 "think this is an error."
 msgstr ""
+"Deze inzending kan op dit moment niet worden bevestigd - Neem contact met "
+"ons op als je denkt dat dit een fout is."
 
 #: pretalx/cfp/phrases.py:28
 msgid "This submission cannot be edited anymore."
-msgstr ""
+msgstr "Deze inzending kan niet meer worden bewerkt."
 
 #: pretalx/cfp/phrases.py:30
 msgid "Your account has now been deleted."
-msgstr ""
+msgstr "Je account is nu verwijderd."
 
 #: pretalx/cfp/phrases.py:31
 msgid "Are you really sure? Please tick the box"
-msgstr ""
+msgstr "Ben je echt zeker? Vink het vakje aan"
 
 #: pretalx/cfp/phrases.py:33
 msgid "Please provide a valid email address."
@@ -428,25 +456,27 @@ msgstr "Vul een geldig e-mailadres in s.v.p."
 
 #: pretalx/cfp/phrases.py:34
 msgid "The invitation was sent!"
-msgstr ""
+msgstr "De uitnodiging is verstuurd!"
 
 #: pretalx/cfp/phrases.py:35
 msgid "You are now part of this submission! Please fill in your profile below."
-msgstr ""
+msgstr "Je maakt nu deel uit van deze inzending! Vul hieronder je profiel in."
 
 #: pretalx/cfp/phrases.py:37
 msgid "This event currently does not accept new submissions, sorry!"
-msgstr ""
+msgstr "Dit event accepteert momenteel geen nieuwe inzendingen, sorry!"
 
 #: pretalx/cfp/phrases.py:38
 msgid "Your talk has been submitted successfully!"
-msgstr ""
+msgstr "Je sessie is succesvol ingezonden!"
 
 #: pretalx/cfp/phrases.py:39
 msgid ""
 "We are experiencing difficulties when sending mails, but your talk was "
 "submitted successfully!"
 msgstr ""
+"We ondervinden moeilijkheden bij het verzenden van mails, maar je sessie "
+"werd succesvol ingezonden!"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:20
 #, python-format
@@ -454,34 +484,37 @@ msgid ""
 "You can enter submissions until %(deadline)s (%(timezone)s), "
 "%(until_string)s from now."
 msgstr ""
+"Je kunt inzendingen invoeren tot %(deadline)s (%(timezone)s), "
+"%(until_string)s vanaf nu."
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:24
 #, python-format
 msgid "This Call for Papers closed on %(deadline)s (%(timezone)s)."
 msgstr ""
+"Deze oproep voor inzendingen werd afgesloten op %(deadline)s (%(timezone)s)."
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:34
 #: pretalx/cfp/templates/cfp/event/index.html:22
 msgid "View conference schedule"
-msgstr ""
+msgstr "Schema weergeven"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:38
 #: pretalx/cfp/templates/cfp/event/index.html:26
 msgid "View schedule preview"
-msgstr ""
+msgstr "Schema-preview tonen"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:43
 #: pretalx/cfp/templates/cfp/event/index.html:16
 msgid "Edit or view your submissions"
-msgstr ""
+msgstr "Bewerk of bekijk je inzendingen"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:49
 msgid "Submit a proposal"
-msgstr ""
+msgstr "Stuur een voorstel in"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:51
 msgid "Submissions are closed"
-msgstr ""
+msgstr "Inzendingen zijn afgesloten"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:3
 #: pretalx/submission/models/submission.py:55
@@ -490,7 +523,7 @@ msgstr "verstuurd"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:5
 msgid "not accepted"
-msgstr ""
+msgstr "niet aanvaard"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:7
 #: pretalx/submission/models/submission.py:56
@@ -510,7 +543,7 @@ msgstr "geannuleerd"
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:13
 #: pretalx/submission/models/submission.py:60
 msgid "withdrawn"
-msgstr ""
+msgstr "ingetrokken"
 
 #: pretalx/cfp/templates/cfp/event/fragment_state.html:15
 #: pretalx/submission/models/submission.py:61
@@ -520,12 +553,12 @@ msgstr "verwijderd"
 #: pretalx/cfp/templates/cfp/event/index.html:31
 #: pretalx/orga/views/dashboard.py:56
 msgid "Go to CfP"
-msgstr ""
+msgstr "Ga naar CfP"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:5
 #: pretalx/cfp/templates/cfp/event/invitation.html:8
 msgid "Accept invitation?"
-msgstr ""
+msgstr "Uitnodiging aanvaarden?"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:9
 #, python-format
@@ -533,10 +566,12 @@ msgid ""
 "You, %(name)s, have been invited to be a speaker for the submission "
 "“%(talk)s”. Do you accept the invitation?"
 msgstr ""
+"Jij, %(name)s, bent uitgenodigd om een spreker te zijn voor de inzending "
+"\"%(talk)s\". Aanvaard je de uitnodiging?"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:17
 msgid "Abstract:"
-msgstr ""
+msgstr "Abstract:"
 
 #: pretalx/cfp/templates/cfp/event/invitation.html:30
 #: pretalx/orga/templates/orga/cfp/question_detail.html:97
@@ -564,12 +599,17 @@ msgid ""
 "schedule updates. You'll only need an account if you participate in the "
 "event as speaker or as orga."
 msgstr ""
+"Je hebt geen account nodig om het event te bekijken of feedback in te "
+"dienen, of planningsupdates te ontvangen. Je hebt alleen een account nodig "
+"als je deelneemt aan het event als spreker of als orga."
 
 #: pretalx/cfp/templates/cfp/event/login.html:17
 msgid ""
 "If you already created a submission for a different event on this server, "
 "you can re-use your account to log in for this event."
 msgstr ""
+"Als je al een inzending voor een ander event op deze server hebt gemaakt, "
+"kan je dat account opnieuw gebruiken om je aan te melden voor dit event."
 
 #: pretalx/cfp/templates/cfp/event/recover.html:5
 #: pretalx/cfp/templates/cfp/event/reset.html:5
@@ -581,17 +621,18 @@ msgstr "Wachtwoord reset"
 #: pretalx/cfp/templates/cfp/event/recover.html:13
 #: pretalx/orga/templates/orga/auth/recover.html:12
 msgid "OK, this looks good!"
-msgstr ""
+msgstr "OK, dat ziet er goed uit!"
 
 #: pretalx/cfp/templates/cfp/event/recover.html:15
 #: pretalx/orga/templates/orga/auth/recover.html:14
 msgid "Now you just need to choose your new password and you are ready to go."
 msgstr ""
+"Nu hoef je alleen maar je nieuwe wachtwoord te kiezen en je bent klaar."
 
 #: pretalx/cfp/templates/cfp/event/recover.html:21
 #: pretalx/orga/templates/orga/auth/recover.html:20
 msgid "Save this!"
-msgstr ""
+msgstr "Dit opslaan!"
 
 #: pretalx/cfp/templates/cfp/event/reset.html:8
 #: pretalx/orga/templates/orga/auth/reset.html:7
@@ -601,12 +642,12 @@ msgstr "Wachtwoord vergeten?"
 #: pretalx/cfp/templates/cfp/event/reset.html:14
 #: pretalx/orga/templates/orga/auth/reset.html:13
 msgid "Let me set a new one!"
-msgstr ""
+msgstr "Laat me een nieuw instellen!"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:6
 #: pretalx/orga/templates/orga/submission/content.html:19
 msgid "Create submission"
-msgstr ""
+msgstr "Inzending maken"
 
 #: pretalx/cfp/templates/cfp/event/submission_base.html:33
 msgid "Continue"
@@ -635,23 +676,27 @@ msgstr "Terug"
 
 #: pretalx/cfp/templates/cfp/event/submission_info.html:9
 msgid "Hey, nice to meet you!"
-msgstr ""
+msgstr "Hoi, fijn je te ontmoeten!"
 
 #: pretalx/cfp/templates/cfp/event/submission_info.html:14
 msgid ""
 "We're glad that you want to contribute to our event with your submission. "
 "Let's get started, this won't take long."
 msgstr ""
+"We zijn blij dat je met je inzending aan ons event wilt bijdragen. Laten we "
+"aan de slag gaan, je bent snel klaar."
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:11
 msgid "Tell us something about yourself!"
-msgstr ""
+msgstr "Vertel iets over jezelf!"
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:16
 msgid ""
 "This information will be publicly displayed next to your talk - you can "
 "always edit for as long as submissions are still open."
 msgstr ""
+"Deze informatie wordt publiek weergegeven naast je sessie - je kan dit "
+"altijd bewerken zolang inzendingen nog open zijn."
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:26
 #: pretalx/cfp/templates/cfp/event/user_profile.html:25
@@ -667,7 +712,7 @@ msgstr "Jouw avatar"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:9
 msgid "Tell us more!"
-msgstr ""
+msgstr "Vertel ons meer!"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:14
 #, python-format
@@ -676,18 +721,22 @@ msgid ""
 "rest assured, you reached step %(step)s of %(steps)s already, we are nearly "
 "there!"
 msgstr ""
+"Voor we je inzending kunnen opslaan, hebben we nog wat vragen voor je. Maar "
+"wees gerust, je bent al op stap %(step)s van %(steps)s, we zijn er bijna!"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:20
 msgid "… about your submission:"
-msgstr ""
+msgstr "... over je inzending:"
 
 #: pretalx/cfp/templates/cfp/event/submission_questions.html:26
 msgid "… about yourself:"
-msgstr ""
+msgstr "... over jezelf:"
 
 #: pretalx/cfp/templates/cfp/event/submission_user.html:6
 msgid "That's it about your submission! We now just need a way to contact you."
 msgstr ""
+"Dat is alles voor je inzending! We hebben nu nog een manier nodig om contact "
+"met je op te nemen."
 
 #: pretalx/cfp/templates/cfp/event/submission_user.html:8
 msgid ""
@@ -695,11 +744,15 @@ msgid ""
 "gives us a way to contact you, it also gives you the possibility to edit "
 "your submission or to view its current state."
 msgstr ""
+"Als je je inzending wilt maken, heb je een account op deze pagina nodig. Dit "
+"geeft ons niet alleen een manier om contact met je op te nemen, het geeft "
+"jou ook de mogelijkheid om je inzending te bewerken of om de huidige status "
+"te bekijken."
 
 #: pretalx/cfp/templates/cfp/event/user_mails.html:4
 #: pretalx/cfp/templates/cfp/event/user_mails.html:7
 msgid "Your E-mails"
-msgstr ""
+msgstr "Jouw E-mails"
 
 #: pretalx/cfp/templates/cfp/event/user_mails.html:9
 msgid ""
@@ -707,6 +760,10 @@ msgid ""
 "them in your email inbox, but this page serves as a helper in case your "
 "email address was unavailable or the emails got lost in some way."
 msgstr ""
+"Dit zijn e-mails die de organisatoren je hebben gestuurd, dus je zou ze in "
+"je e-mail inbox moeten kunnen vinden. Deze pagina dient als een helper in "
+"het geval je e-mailadres niet beschikbaar was of de e-mails op een of andere "
+"manier verloren zijn gegaan."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:7
 #: pretalx/cfp/templates/cfp/event/user_profile.html:15
@@ -718,6 +775,8 @@ msgid ""
 "This data will be displayed publicly if your talk is accepted. It is also "
 "visible to reviewers."
 msgstr ""
+"Deze gegevens worden publiek weergegeven als je toespraak wordt "
+"geaccepteerd. Ze zijn ook zichtbaar voor redacteurs."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:62
 #: pretalx/cfp/templates/cfp/event/user_profile.html:76
@@ -741,7 +800,7 @@ msgstr "Opslaan"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:69
 msgid "We have some questions"
-msgstr ""
+msgstr "We hebben een aantal vragen"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:83
 msgid "Your Account"
@@ -749,11 +808,11 @@ msgstr "Uw Account"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:85
 msgid "You can change your log in data here."
-msgstr ""
+msgstr "Je kunt je inloggegevens hier wijzigen."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:103
 msgid "Account deletion"
-msgstr ""
+msgstr "Account verwijderen"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:107
 msgid ""
@@ -761,43 +820,48 @@ msgid ""
 "information will be overwritten. <strong>This action is irreversible.</"
 "strong>"
 msgstr ""
+"Je kunt je account hier verwijderen -alle namen, e-mails en andere "
+"persoonlijke gegevens worden overschreven. <strong>Deze actie is "
+"onomkeerbaar.</strong>"
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:111
 msgid ""
 "I really do want to delete my account, losing access to my submissions and "
 "talks, and overriding my public and private data."
 msgstr ""
+"Ik wil echt mijn account verwijderen, de toegang tot mijn inzendingen en "
+"sessies kwijtraken en mijn openbare en persoonlijke gegevens overschrijven."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:115
 msgid "Delete my account"
-msgstr ""
+msgstr "Verwijder mijn account"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:7
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:9
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:5
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:4
 msgid "Your submission"
-msgstr ""
+msgstr "Jouw inzending"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:11
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:20
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:10
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:7
 msgid "Your submission:"
-msgstr ""
+msgstr "Jouw inzending:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:13
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:29
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:14
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:9
 msgid "Current state of your submission:"
-msgstr ""
+msgstr "Huidige status van je inzending:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:16
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:16
 #: pretalx/submission/models/submission.py:132
 msgid "Submission type"
-msgstr ""
+msgstr "Type inzending"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:17
 #: pretalx/orga/templates/orga/cfp/text.html:89
@@ -810,13 +874,15 @@ msgstr "Volgen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:20
 msgid "Congratulations on your acceptance!"
-msgstr ""
+msgstr "Joepie, je sessie is aanvaard!"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:24
 msgid ""
 "Please provide us with your available hours during the event, so that we can "
 "schedule your event accordingly:<p>"
 msgstr ""
+"Geef je beschikbare uren tijdens het event, zodat we je sessie hierin kunnen "
+"plannen:<p>"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:41
 msgid ""
@@ -825,6 +891,11 @@ msgid ""
 "submission data, such as title, abstract, description, and any uploads you "
 "provided, can be made publicly available once the submission is confirmed."
 msgstr ""
+"Door je inzending te bevestigen, stem je ermee in dat je in staat en bereid "
+"bent deel te nemen aan dit event en de inhoud van deze inzending te "
+"presenteren. De indieningsgegevens, zoals titel, abstract, beschrijving en "
+"eventuele uploads die je hebt verstrekt, kunnen publiek beschikbaar worden "
+"gemaakt zodra de inzending is bevestigd."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:51
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:27
@@ -844,15 +915,17 @@ msgstr "Bevestigen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:33
 msgid "Confirm your attendance"
-msgstr ""
+msgstr "Bevestig je aanwezigheid"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:38
 msgid "Audience feedback"
-msgstr ""
+msgstr "Feedback van het publiek"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:40
 msgid "Attendees can leave feedback here after your talk has taken place."
 msgstr ""
+"Deelnemers kunnen hier feedback achterlaten nadat je sessie heeft "
+"plaatsgevonden."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:48
 msgid "Speaker:"
@@ -863,33 +936,37 @@ msgstr[1] "Sprekers:"
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:74
 #: pretalx/orga/templates/orga/submission/content.html:32
 msgid "Resources"
-msgstr "Bronnen"
+msgstr "Hulpmiddelen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:78
 msgid ""
 "Resources will be publicly visible. Please try to keep your uploads below "
 "16MB."
 msgstr ""
+"Hulpmiddelen worden publiek zichtbaar. Probeer uploads onder de 16MB te "
+"houden."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:127
 #: pretalx/orga/templates/orga/submission/content.html:79
 msgid "Add another resource"
-msgstr ""
+msgstr "Een ander hulpmiddel toevoegen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:143
 msgid "Share submission"
-msgstr ""
+msgstr "Inzending delen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:145
 msgid ""
 "If you need a review from a colleague or a friend here's a link that you can "
 "send out for viewing your submission:"
 msgstr ""
+"Als je een beoordeling nodig hebt van een collega of een vriend, is hier een "
+"link die je kunt doorsturen om je inzending te bekijken:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:151
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:14
 msgid "Withdraw submission"
-msgstr ""
+msgstr "Inzending intrekken"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:153
 msgid ""
@@ -897,10 +974,13 @@ msgid ""
 "undo this - if you are just uncertain if you can or should hold your talk, "
 "please contact the organiser instead."
 msgstr ""
+"Je kan je inzending hier intrekken. Je kunt dit niet ongedaan maken - als je "
+"gewoon onzeker bent of je je inzending wel wilt of kunt houden, neem dan "
+"contact op met de organisator."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:167
 msgid "Cancel submission"
-msgstr ""
+msgstr "Inzending annuleren"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:169
 msgid ""
@@ -908,6 +988,9 @@ msgid ""
 "organising team to cancel it. The best way to reach out would be an answer "
 "to your acceptance mail."
 msgstr ""
+"Als je inzending al is geaccepteerd, neem dan contact op met het "
+"organiserende team van het event om het te annuleren. De beste manier om "
+"contact op te nemen is een antwoord op de acceptatiemail."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:18
 msgid ""
@@ -915,6 +998,9 @@ msgid ""
 "an email, (which might get caught by spam filters) you can also give them "
 "this link:"
 msgstr ""
+"Nodig hier een andere spreker uit voor uw inzending. In plaats van ons een e-"
+"mail te laten sturen (die in een spamfilter terecht zou kunnen komen), kunt "
+"u ze ook deze link doorsturen:"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_invitation.html:31
 #: pretalx/common/phrases.py:45
@@ -929,16 +1015,16 @@ msgstr "Verzenden"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:16
 msgid "Do you really want to withdraw your submission?"
-msgstr ""
+msgstr "Wil je echt je inzending intrekken?"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_withdraw.html:29
 msgid "You will not be able to revert this action."
-msgstr ""
+msgstr "Je kan deze actie niet ongedaan maken."
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:8
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:22
 msgid "Your submissions"
-msgstr ""
+msgstr "Jouw inzendingen"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:12
 msgid "Important Information"
@@ -960,30 +1046,35 @@ msgid "State"
 msgstr "Provincie"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:59
+#, fuzzy
 msgid "Copy code for review"
-msgstr ""
+msgstr "Kopieer code voor review"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:88
 msgid "Create a new submission"
-msgstr ""
+msgstr "Maak een nieuwe inzending"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:94
 msgid "It seems like you haven't submitted anything to this event yet."
-msgstr ""
+msgstr "Het lijkt erop dat je nog niets hebt ingezonden voor dit event."
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:97
 msgid "If you did, maybe you used a different account? Check your emails!"
 msgstr ""
+"Als je dat deed, heb je misschien een ander account gebruikt? Controleer je "
+"e-mails!"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:101
 msgid ""
 "If you did not, why not go ahead and create a proposal now? We'd love to "
 "hear from you!"
 msgstr ""
+"Als je dat niet hebt gedaan, waarom nu geen voorstel insturen? We horen "
+"graag van je!"
 
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:106
 msgid "Submit something now!"
-msgstr ""
+msgstr "Stuur nu iets in!"
 
 #: pretalx/cfp/templates/cfp/index.html:4
 #: pretalx/cfp/templates/cfp/index.html:8
@@ -992,26 +1083,26 @@ msgstr ""
 #: pretalx/orga/templates/orga/base.html:345
 #: pretalx/orga/templates/orga/organiser/list.html:20
 msgid "Events"
-msgstr "Evenementen"
+msgstr "Events"
 
 #: pretalx/cfp/templates/cfp/index.html:20
 msgid "No events are currently ongoing."
-msgstr ""
+msgstr "Er zijn momenteel geen events bezig."
 
 #: pretalx/cfp/templates/cfp/index.html:23
 #: pretalx/orga/templates/orga/event_list.html:17
 msgid "Upcoming events"
-msgstr "Aankomende evenementen"
+msgstr "Aankomende events"
 
 #: pretalx/cfp/templates/cfp/index.html:34
 #: pretalx/orga/templates/orga/event_list.html:38
 msgid "Past events"
-msgstr "Afgelopen evenementen"
+msgstr "Afgelopen events"
 
 #: pretalx/cfp/views/auth.py:101 pretalx/cfp/views/auth.py:110
 #: pretalx/cfp/views/auth.py:113
 msgid "Please go back and try again."
-msgstr ""
+msgstr "Ga terug en probeer het opnieuw."
 
 #: pretalx/cfp/views/wizard.py:38 pretalx/orga/templates/orga/base.html:176
 msgid "General"
@@ -1038,37 +1129,40 @@ msgid ""
 "There was an error when logging in. Please contact the organiser for further "
 "help."
 msgstr ""
+"Er is een fout opgetreden bij het aanmelden. Neem contact op met de "
+"organisator voor verdere hulp."
 
 #: pretalx/cfp/views/wizard.py:212
 msgid "New submission!"
-msgstr ""
+msgstr "Nieuwe inzending!"
 
 #: pretalx/common/context_processors.py:34
 msgid "“"
-msgstr ""
+msgstr "“"
 
 #: pretalx/common/context_processors.py:35
 msgid "”"
-msgstr ""
+msgstr "”"
 
 #: pretalx/common/css.py:120
 #, python-brace-format
 msgid "\"{value}\" is not allowed as attribute of \"{key}\""
-msgstr ""
+msgstr "\"{value}\" is niet toegestaan als attribuut van “{key}\""
 
 #: pretalx/common/css.py:126
 #, python-brace-format
 msgid "You are not allowed to include \"{key}\" keys in your CSS."
-msgstr ""
+msgstr "Je mag geen “{key}\" keys opnemen in je CSS."
 
 #: pretalx/common/css.py:152
 msgid "This stylesheet is not valid CSS."
-msgstr ""
+msgstr "Deze stylesheet is geen geldige CSS."
 
 #: pretalx/common/forms/fields.py:63 pretalx/person/forms.py:166
 #: pretalx/submission/forms/submission.py:105
 msgid "This filetype is not allowed, it has to be one of the following: "
 msgstr ""
+"Dit bestandstype is niet toegestaan, het moet een van de volgende zijn: "
 
 #: pretalx/common/forms/forms.py:7
 #: pretalx/common/templates/common/search_form.html:6
@@ -1086,37 +1180,37 @@ msgstr "Optioneel"
 #: pretalx/common/forms/utils.py:15
 #, python-brace-format
 msgid "Please write between {min_length} and {max_length} words."
-msgstr ""
+msgstr "Schrijf tussen {min_length} en {max_length} woorden."
 
 #: pretalx/common/forms/utils.py:16
 #, python-brace-format
 msgid "Please write between {min_length} and {max_length} characters."
-msgstr ""
+msgstr "Schrijf tussen {min_length} en {max_length} tekens."
 
 #: pretalx/common/forms/utils.py:17
 #, python-brace-format
 msgid "Please write at least {min_length} words."
-msgstr ""
+msgstr "Schrijf ten minste {min_length} woorden."
 
 #: pretalx/common/forms/utils.py:18
 #, python-brace-format
 msgid "Please write at least {min_length} characters."
-msgstr ""
+msgstr "Schrijf ten minste {min_length} tekens."
 
 #: pretalx/common/forms/utils.py:19
 #, python-brace-format
 msgid "Please write at most {max_length} words."
-msgstr ""
+msgstr "Schrijf maximaal {max_length} woorden."
 
 #: pretalx/common/forms/utils.py:20
 #, python-brace-format
 msgid "Please write at most {max_length} characters."
-msgstr ""
+msgstr "Schrijf maximaal {max_length} tekens."
 
 #: pretalx/common/forms/utils.py:37
 #, python-brace-format
 msgid "You wrote {count} characters."
-msgstr ""
+msgstr "Je schreef {count} tekens."
 
 #: pretalx/common/forms/utils.py:38
 #, python-brace-format
@@ -1909,7 +2003,7 @@ msgstr "Activiteit begin datum"
 
 #: pretalx/event/models/event.py:119
 msgid "Event end date"
-msgstr "Einddatum evenement"
+msgstr "Einddatum event"
 
 #: pretalx/event/models/event.py:122
 msgid ""
@@ -2142,7 +2236,7 @@ msgstr ""
 
 #: pretalx/event/stages.py:96
 msgid "Event"
-msgstr "Evenement"
+msgstr "Event"
 
 #: pretalx/event/stages.py:100
 msgid "Provide a point of contact for the speakers"
@@ -3552,7 +3646,7 @@ msgstr ""
 #: pretalx/orga/templates/orga/event/wizard/basics.html:15
 #: pretalx/orga/templates/orga/event_list.html:12
 msgid "New event"
-msgstr "Nieuw evenement"
+msgstr "Nieuw event"
 
 #: pretalx/orga/templates/orga/event/wizard/base.html:10
 #: pretalx/orga/templates/orga/event/wizard/basics.html:16
@@ -3799,7 +3893,7 @@ msgstr "Leden"
 
 #: pretalx/orga/templates/orga/organiser/detail.html:40
 msgid "All events"
-msgstr "Alle evenementen"
+msgstr "Alle events"
 
 #: pretalx/orga/templates/orga/organiser/detail.html:41
 msgid "Reviewer"
@@ -5768,4 +5862,4 @@ msgstr ""
 #: pretalx/submission/models/type.py:62
 #, python-brace-format
 msgid "{name} ({duration} minutes)"
-msgstr ""
+msgstr "{name} ({duration} minuten)"
