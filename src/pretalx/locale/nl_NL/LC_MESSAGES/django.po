@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-28 13:24+0000\n"
-"PO-Revision-Date: 2019-10-04 18:11+0200\n"
+"PO-Revision-Date: 2019-10-13 19:20+0200\n"
 "Last-Translator: Toon Van de Putte\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -5571,61 +5571,70 @@ msgid ""
 "A new export will be generated on the next scheduled opportunity – please "
 "contact your administrator for details."
 msgstr ""
+"Een nieuwe export zal spoedig gegenereerd worden – contacteer a.u.b. de "
+"beheerder voor details."
 
 #: pretalx/orga/views/schedule.py:93
 #, python-brace-format
 msgid ""
 "Could not find the current export, please try to regenerate it. ({error})"
 msgstr ""
+"Kan de huidige export niet vinden, probeer alstublieft deze te regenereren. "
+"({error})"
 
 #: pretalx/orga/views/schedule.py:129
 msgid "You have to provide a new, unique schedule version!"
-msgstr ""
+msgstr "Je moet een nieuw, uniek programma voorzien!"
 
 #: pretalx/orga/views/schedule.py:139
 msgid "Nice, your schedule has been released!"
-msgstr ""
+msgstr "Mooi, je programma is gepubliceerd!"
 
 #: pretalx/orga/views/schedule.py:155
 msgid ""
 "Reset successful – start editing the schedule from your selected version!"
 msgstr ""
+"Herstellen succesvol – je kan het programma wijzigen vanaf je geselecteerde "
+"versie!"
 
 #: pretalx/orga/views/schedule.py:160
 msgid "Error retrieving the schedule version to reset to."
-msgstr ""
+msgstr "Fout bij het ophalen van de programma-versie naar waar hersteld werd."
 
 #: pretalx/orga/views/schedule.py:190
 msgid "You can only regenerate mails after the first schedule was released."
 msgstr ""
+"Je kan alleen mails regenereren nadat het eerste programma gepubliceerd is."
 
 #: pretalx/orga/views/schedule.py:297
 msgid "The talk has been scheduled."
-msgstr ""
+msgstr "De sessie zit in het programma."
 
 #: pretalx/orga/views/schedule.py:342
 msgid "Room deleted. Hopefully nobody was still in there …"
-msgstr ""
+msgstr "Ruimte gewist. Hopelijk zat er niemand meer in ..."
 
 #: pretalx/orga/views/schedule.py:348
 msgid "There is or was a talk scheduled in this room. It cannot be deleted."
 msgstr ""
+"Er is of was een sessie geprogrammeerd in deze ruimte. Ze kan niet "
+"verwijderd worden."
 
 #: pretalx/orga/views/schedule.py:399
 msgid "The selected room does not exist."
-msgstr ""
+msgstr "De geselecteerde ruimte bestaat niet."
 
 #: pretalx/orga/views/schedule.py:401
 msgid "Sorry, you are not allowed to reorder rooms."
-msgstr ""
+msgstr "Sorry, het is je niet toegestaan de ruimtes te herordenen."
 
 #: pretalx/orga/views/schedule.py:415
 msgid "The order of rooms has been updated."
-msgstr ""
+msgstr "De volgorde van de ruimtes is aangepast."
 
 #: pretalx/orga/views/speaker.py:255
 msgid "The information has been deleted."
-msgstr ""
+msgstr "De informatie is gewist."
 
 #: pretalx/orga/views/submission.py:56
 #, python-brace-format
@@ -5645,72 +5654,92 @@ msgid ""
 "\n"
 "The {event} orga crew"
 msgstr ""
+"Hallo!\n"
+"\n"
+"Je bent aangewezen als de spreker in een inzending naar de Call for "
+"Participation\n"
+"van {event}, getiteld “{title}”. We hebben een account aangemaakt voor je, "
+"volg\n"
+"a.u.b. de link om een paswoord in te stellen.\n"
+"\n"
+"{invitation_link}\n"
+"\n"
+"Daarna kan je je gebruikersprofiel aanpassen en de status van je inzending\n"
+"bekijken.\n"
+"\n"
+"De {event} orga crew"
 
 #: pretalx/orga/views/submission.py:76
 #, python-brace-format
 msgid "You have been added to a submission for {event}"
-msgstr ""
+msgstr "Je bent toegevoegd aan een inzending voor {event}"
 
 #: pretalx/orga/views/submission.py:142
 msgid ""
 "Somebody else was faster than you: this submission was already in the state "
 "you wanted to change it to."
 msgstr ""
+"Iemand anders was sneller: deze inzending heeft al de status naar welke je "
+"ze wou verzetten."
 
 #: pretalx/orga/views/submission.py:174
 msgid "Please provide a valid email address!"
-msgstr ""
+msgstr "Gelieve een geldig mail adres in te geven!"
 
 #: pretalx/orga/views/submission.py:183
 msgid "The speaker has been added to the submission."
-msgstr ""
+msgstr "De spreker is toegevoegd aan de inzending."
 
 #: pretalx/orga/views/submission.py:187
 msgid "The speaker was already part of the submission."
-msgstr ""
+msgstr "De spreker was al toegevoegd aan de inzending."
 
 #: pretalx/orga/views/submission.py:209
 msgid "The speaker has been removed from the submission."
-msgstr ""
+msgstr "De spreker is verwijderd uit deze inzending."
 
 #: pretalx/orga/views/submission.py:212
 msgid "The speaker was not part of this submission."
-msgstr ""
+msgstr "De spreker zat niet in deze inzending."
 
 #: pretalx/orga/views/submission.py:372
 msgid ""
 "The submission has been created; the speaker already had an account on this "
 "system."
 msgstr ""
+"De inzending is aangemaakt; de spreker had al een gebruikersaccount op dit "
+"systeem."
 
 #: pretalx/orga/views/submission.py:384
 msgid ""
 "The submission has been created and the speaker has been invited to add an "
 "account!"
 msgstr ""
+"De inzending is aangemaakt en de spreker uitgenodigd om een "
+"gebruikersaccount aan te maken!"
 
 #: pretalx/orga/views/submission.py:393
 msgid "The submission has been updated!"
-msgstr ""
+msgstr "De inzending is aangepast!"
 
 #: pretalx/orga/views/submission.py:466
 #, python-brace-format
 msgid "{name} submission feed"
-msgstr ""
+msgstr "{name} inzendingen feed"
 
 #: pretalx/orga/views/submission.py:478
 #, python-brace-format
 msgid "Updates to the {name} schedule."
-msgstr ""
+msgstr "Aanpassingen aan het {name} programma."
 
 #: pretalx/orga/views/submission.py:484
 #, python-brace-format
 msgid "New {event} submission: {title}"
-msgstr ""
+msgstr "Nieuwe {event} inzending: {title}"
 
 #: pretalx/person/exporters.py:15
 msgid "Speaker CSV"
-msgstr ""
+msgstr "Spreker CSV"
 
 #: pretalx/person/forms.py:33
 msgid "Password (again)"
@@ -5721,53 +5750,62 @@ msgid ""
 "No user account matches the entered credentials. Are you sure that you typed "
 "your password correctly?"
 msgstr ""
+"Er is geen gebruiker met deze gegevens. Ben je zeker dat je het correcte "
+"paswoord hebt ingetypt?"
 
 #: pretalx/person/forms.py:57
 msgid "Sorry, your account is currently disabled."
-msgstr ""
+msgstr "Sorry, je gebruikersaccount is momenteel niet actief."
 
 #: pretalx/person/forms.py:68
 msgid ""
 "We already have a user with that email address. Did you already register "
 "before and just need to log in?"
 msgstr ""
+"We hebben al een gebruikersaccount met dit mail adres. Ben je al lid en wil "
+"je gewoon inloggen?"
 
 #: pretalx/person/forms.py:83
 msgid ""
 "You need to fill all fields of either the login or the registration form."
 msgstr ""
+"Je moet alle velden van ofwel het inlogformulier ofwel het "
+"registratieformulier invullen."
 
 #: pretalx/person/forms.py:161
 msgid "Your avatar may not be larger than 10 MB."
-msgstr ""
+msgstr "Je avatar mag niet groter zijn dan 10MB."
 
 #: pretalx/person/forms.py:179
 msgid "Please choose a different email address, this one is taken."
-msgstr ""
+msgstr "Kies a.u.b. een ander email adres, het huidige is al in gebruik."
 
 #: pretalx/person/forms.py:187
 msgid ""
 "Please provide a profile picture or allow us to load your picture from "
 "gravatar!"
 msgstr ""
+"Voorzie a.u.b. een profielfoto of sta ons toe je foto van gravatar in te "
+"laden!"
 
 #: pretalx/person/forms.py:226
 msgid "The current password you entered was not correct."
-msgstr ""
+msgstr "Het huidige paswoord dat je ingaf is niet correct."
 
 #: pretalx/person/forms.py:230
 msgid "Password (current)"
-msgstr ""
+msgstr "Paswoord (huidig)"
 
 #: pretalx/person/forms.py:248
 msgid "Please choose a different email address."
-msgstr ""
+msgstr "Kies a.u.b. een ander email adres."
 
 #: pretalx/person/forms.py:283
 msgid ""
 "Either target all submitters or only confirmed speakers, these options are "
 "exclusive!"
 msgstr ""
+"Kies enkel alle inzenders of enkel bevestigde sprekers, beiden gaat niet!"
 
 #: pretalx/person/forms.py:302
 msgid "all"
@@ -5775,23 +5813,23 @@ msgstr "alle"
 
 #: pretalx/person/forms.py:304
 msgid "Non-accepted submitters"
-msgstr ""
+msgstr "Niet aanvaarde inzenders"
 
 #: pretalx/person/models/information.py:18
 msgid "Include all submitters"
-msgstr ""
+msgstr "Alle inzenders toevoegen"
 
 #: pretalx/person/models/information.py:19
 msgid "Show to every submitter regardless of their submissions' status"
-msgstr ""
+msgstr "Toon aan elke inzender ongeacht de status van hun inzending"
 
 #: pretalx/person/models/information.py:23
 msgid "Exclude unconfirmed speakers"
-msgstr ""
+msgstr "Onbevestigde sprekers niet tonen"
 
 #: pretalx/person/models/information.py:24
 msgid "Show to speakers only once they have confirmed attendance"
-msgstr ""
+msgstr "Toon aan inzenders enkel als ze hun deelname bevestigd hebben"
 
 #: pretalx/person/models/information.py:30
 #: pretalx/submission/models/resource.py:17
@@ -5801,17 +5839,19 @@ msgstr "bestand"
 #: pretalx/person/models/information.py:33
 #: pretalx/submission/models/resource.py:18
 msgid "Please try to keep your upload small, preferably below 16 MB."
-msgstr ""
+msgstr "Probeer je upload klein te houden, liefst onder 16MB."
 
 #: pretalx/person/models/profile.py:37
 msgid "The speaker has arrived"
-msgstr ""
+msgstr "De spreker is toegekomen"
 
 #: pretalx/person/models/user.py:81
 msgid ""
 "Please enter the name you wish to be displayed publicly. This name will be "
 "used for all events you are participating in on this server."
 msgstr ""
+"Vul a.u.b. de naam in die publiek getoond zal worden. Deze naam zal gebruikt "
+"worden voor alle events waarmee je meedoet op deze server."
 
 #: pretalx/person/models/user.py:85
 msgid "E-Mail"
@@ -5822,6 +5862,8 @@ msgid ""
 "Your email address will be used for password resets and notification about "
 "your event/submissions."
 msgstr ""
+"Je email adres zal gebruikt worden voor paswoord herstellingen en berichten "
+"over je event/inzendingen.."
 
 #: pretalx/person/models/user.py:98
 msgid "Preferred language"
@@ -5830,20 +5872,23 @@ msgstr "Voorkeurstaal"
 #: pretalx/person/models/user.py:107
 msgid "If possible, upload an image that is least 120 pixels wide."
 msgstr ""
+"Als dit mogelijk is, upload een beeld dat minstens 120 pixels breed is."
 
 #: pretalx/person/models/user.py:111
 msgid "Retrieve profile picture via gravatar"
-msgstr ""
+msgstr "Haal profielfoto op via gravatar"
 
 #: pretalx/person/models/user.py:113
 msgid ""
 "If you have registered with an email address that has a gravatar account, we "
 "can retrieve your profile picture from there."
 msgstr ""
+"Als je geregistreerd hebt met een email adres aan welke een gravatar account "
+"verbonden is, kunnen we je profielfoto van daar inladen."
 
 #: pretalx/person/models/user.py:121 pretalx/person/models/user.py:125
 msgid "Unnamed user"
-msgstr ""
+msgstr "Naamloze gebruiker"
 
 #: pretalx/person/models/user.py:319
 #, python-brace-format
