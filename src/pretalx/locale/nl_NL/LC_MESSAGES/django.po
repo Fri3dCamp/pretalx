@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-28 13:24+0000\n"
-"PO-Revision-Date: 2019-10-13 19:20+0200\n"
+"PO-Revision-Date: 2019-10-27 18:42+0100\n"
 "Last-Translator: Toon Van de Putte\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -5905,6 +5905,17 @@ msgid ""
 "All the best,\n"
 "the pretalx robot"
 msgstr ""
+"Hallo {name},\n"
+"\n"
+"Je hebt een nieuw paswoord aangevraagd voor je pretalx gebruiker.\n"
+"Om je paswoord te herstellen kan je op de volgende link klikken:\n"
+"\n"
+"{url}\n"
+"\n"
+"Als jij dit niet aangevraagd hebt, kan je deze email gerust negeren.\n"
+"\n"
+"Al het beste,\n"
+"de pretalx robot"
 
 #: pretalx/person/models/user.py:334
 msgid "Password recovery"
@@ -5913,45 +5924,52 @@ msgstr "Wachtwoordherstel"
 #: pretalx/schedule/forms.py:21
 msgid "Please click and drag to mark the availability during the conference."
 msgstr ""
+"Klik en sleep alstublief om de beschikbaarheid tijdens de conferentie aan te "
+"duiden."
 
 #: pretalx/schedule/forms.py:83
 msgid "The submitted availability does not comply with the required format."
-msgstr ""
+msgstr "De ingegeven beschikbaarheid voldoet niet aan het verwachte formaat."
 
 #: pretalx/schedule/forms.py:96
 msgid "The submitted availability contains an invalid date."
-msgstr ""
+msgstr "De ingegeven beschikbaarheid bevat een onlogische datum."
 
 #: pretalx/schedule/forms.py:122 pretalx/schedule/forms.py:132
 msgid "Please fill in your availabilities!"
-msgstr ""
+msgstr "Vul alstublieft je beschikbaarheid in!"
 
 #: pretalx/schedule/forms.py:166
 msgid "Room I"
-msgstr ""
+msgstr "Ruimte 1"
 
 #: pretalx/schedule/forms.py:168
 msgid ""
 "Description, e.g.: Our main meeting place, Room I, enter from the right."
 msgstr ""
+"Beschrijving, bijvoorbeeld: Onze grote ontmoetingsplaats, Ruimte 1, kom "
+"langs rechts binnen."
 
 #: pretalx/schedule/forms.py:171
 msgid "Information for speakers, e.g.: Projector has only HDMI input."
 msgstr ""
+"Informatie voor de sprekers, bijvoorbeeld: projector heeft enkel HDMI input."
 
 #: pretalx/schedule/models/room.py:25
 msgid "A description for attendees, for example directions."
-msgstr ""
+msgstr "Een beschrijving voor deelnemers, bijvoorbeeld hoe te bereiken."
 
 #: pretalx/schedule/models/room.py:33
 msgid ""
 "Information relevant for speakers scheduled in this room, for example room "
 "size, special directions, available adapters for video input …"
 msgstr ""
+"Informatie relevant voor sprekers in deze ruimte, bijvoorbeeld de grootte, "
+"bereikbaarheids-informatie, voorziene adapters voor video ..."
 
 #: pretalx/schedule/models/room.py:40
 msgid "How many people can fit in the room?"
-msgstr ""
+msgstr "Hoe veel mensen passen er in de ruimte?"
 
 #: pretalx/schedule/models/room.py:45
 msgid "Position"
@@ -5961,6 +5979,8 @@ msgstr "Positie"
 msgid ""
 "This is the order that rooms are displayed in in the schedule (lower = left)."
 msgstr ""
+"Dit is de volgorde waarin de ruimtes in het programma getoond worden (lager "
+"= links)."
 
 #: pretalx/schedule/models/schedule.py:34
 msgid "version"
@@ -5968,16 +5988,16 @@ msgstr "versie"
 
 #: pretalx/schedule/models/slot.py:114
 msgid "The room is not available at the scheduled time."
-msgstr ""
+msgstr "De ruimte is niet beschikbaar op dat moment."
 
 #: pretalx/schedule/models/slot.py:132
 msgid "A speaker is not available at the scheduled time."
-msgstr ""
+msgstr "Een spreker is niet beschikbaar op dat moment."
 
 #: pretalx/schedule/models/slot.py:151
 #| msgid "A speaker is not available at the scheduled time."
 msgid "A speaker is giving another talk at the scheduled time."
-msgstr ""
+msgstr "Een spreker geeft een andere sessie op dat moment."
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:1
 #, python-format
@@ -5985,6 +6005,8 @@ msgid ""
 "\n"
 "- Your talk “%(title)s” will take place at %(start)s in %(location)s"
 msgstr ""
+"\n"
+"- Je sessie “%(title)s” zal plaatsvinden om %(start)s in %(location)s"
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:2
 #, python-format
@@ -5992,6 +6014,8 @@ msgid ""
 "\n"
 "- Your talk “%(title)s” has been moved to %(start)s in %(location)s"
 msgstr ""
+"\n"
+"- Je sessie  “%(title)s” is verzet op %(start)s in %(location)s"
 
 #: pretalx/settings.py:313
 msgid "English"
@@ -6015,7 +6039,7 @@ msgstr "Alle sprekers"
 
 #: pretalx/submission/forms/submission.py:18
 msgid "Additional Speaker"
-msgstr ""
+msgstr "Bijkomende spreker"
 
 #: pretalx/submission/forms/submission.py:19
 msgid ""
@@ -6023,28 +6047,33 @@ msgid ""
 "invite them to create an account. If you have more than one co-speaker, you "
 "can add more speakers after finishing the submission process."
 msgstr ""
+"Als je een co-spreker hebt, vul hier hun email adres in en we verzoeken ze "
+"een gebruiker aan te maken. Als je meerdere co-sprekers hebt, kan je meer "
+"sprekers toevoegen na het inzending-proces afgerond te hebben."
 
 #: pretalx/submission/forms/submission.py:35
 msgid "Submission title"
-msgstr ""
+msgstr "Inzendingstitel"
 
 #: pretalx/submission/forms/submission.py:96
 msgid ""
 "Please contact the organisers if you want to change how often you're "
 "presenting this submission."
 msgstr ""
+"Contacteer alstublieft de organisatoren als je wil aanpassen hoe vaak je "
+"deze inzending kan presenteren."
 
 #: pretalx/submission/forms/submission.py:186
 msgid "Submission types"
-msgstr ""
+msgstr "Inzendingstypes"
 
 #: pretalx/submission/forms/submission.py:199
 msgid "Submission states"
-msgstr ""
+msgstr "Inzendingsstatussen"
 
 #: pretalx/submission/models/cfp.py:23
 msgid "headline"
-msgstr ""
+msgstr "titel"
 
 #: pretalx/submission/models/cfp.py:28
 msgid "text"
@@ -6052,19 +6081,21 @@ msgstr "tekst"
 
 #: pretalx/submission/models/cfp.py:35
 msgid "Default submission type"
-msgstr ""
+msgstr "Standaard inzendingstype"
 
 #: pretalx/submission/models/cfp.py:40 pretalx/submission/models/type.py:38
 msgid "deadline"
-msgstr ""
+msgstr "deadline"
 
 #: pretalx/submission/models/cfp.py:42
 msgid "Please put in the last date you want to accept submissions from users."
 msgstr ""
+"Vul alstublieft de laatste datum in tot welke je inzendingen van gebruikers "
+"aanneemt."
 
 #: pretalx/submission/models/feedback.py:22
 msgid "Talk"
-msgstr ""
+msgstr "Sessie"
 
 #: pretalx/submission/models/feedback.py:32
 msgid "Rating"
@@ -6076,7 +6107,7 @@ msgstr "Nummer"
 
 #: pretalx/submission/models/question.py:45
 msgid "Text (one-line)"
-msgstr ""
+msgstr "Text (one-liner)"
 
 #: pretalx/submission/models/question.py:46
 msgid "Multi-line text"
@@ -6092,37 +6123,39 @@ msgstr "Bestanden uploaden"
 
 #: pretalx/submission/models/question.py:49
 msgid "Choose one from a list"
-msgstr ""
+msgstr "Kies één uit de lijst"
 
 #: pretalx/submission/models/question.py:50
 msgid "Choose multiple from a list"
-msgstr ""
+msgstr "Kies meerdere uit de lijst"
 
 #: pretalx/submission/models/question.py:60
 msgid "per submission"
-msgstr ""
+msgstr "per inzending"
 
 #: pretalx/submission/models/question.py:61
 msgid "per speaker"
-msgstr ""
+msgstr "per spreker"
 
 #: pretalx/submission/models/question.py:62
 msgid "for reviewers"
-msgstr ""
+msgstr "voor redacteurs"
 
 #: pretalx/submission/models/question.py:96
 msgid "question type"
-msgstr ""
+msgstr "type van vraag"
 
 #: pretalx/submission/models/question.py:97
 msgid "Do you require an answer from every speaker or for every talk?"
-msgstr ""
+msgstr "Vereis je een antwoord van elke spreker voor elke sessie?"
 
 #: pretalx/submission/models/question.py:102
 msgid ""
 "You can limit this question to some tracks. Leave this field empty to apply "
 "to all tracks."
 msgstr ""
+"Je kan deze vraag beperken tot sommige tracks. Laat dit veld leeg om op alle "
+"tracks van toepassing te zijn."
 
 #: pretalx/submission/models/question.py:106
 msgid "question"
@@ -6130,15 +6163,15 @@ msgstr "vraag"
 
 #: pretalx/submission/models/question.py:111
 msgid "help text"
-msgstr ""
+msgstr "hulp text"
 
 #: pretalx/submission/models/question.py:112
 msgid "Will appear just like this text below the question input field."
-msgstr ""
+msgstr "Zal getoond worden net zoals deze text onder het veld voor de vraag."
 
 #: pretalx/submission/models/question.py:117
 msgid "default answer"
-msgstr ""
+msgstr "standaard antwoord"
 
 #: pretalx/submission/models/question.py:120
 msgid "position"
@@ -6146,38 +6179,44 @@ msgstr "positie"
 
 #: pretalx/submission/models/question.py:124
 msgid "Inactive questions will no longer be asked."
-msgstr ""
+msgstr "Non-actieve vragen zullen niet langer gesteld worden."
 
 #: pretalx/submission/models/question.py:128
 msgid "Answers contain personal data"
-msgstr ""
+msgstr "Antwoorden bevatten persoonlijke informatie."
 
 #: pretalx/submission/models/question.py:130
 msgid ""
 "If a user deletes their account, answers of questions for personal data will "
 "be removed, too."
 msgstr ""
+"Als een gebruiker hun account verwijdert, zullen antwoorden op vragen met "
+"persoonlijke informatie ook verwijdert worden."
 
 #: pretalx/submission/models/question.py:136
 msgid "Minimum text length"
-msgstr ""
+msgstr "Minimum tekst-lengte"
 
 #: pretalx/submission/models/question.py:137
 msgid "Minimum allowed text in characters or words (set in CfP settings)."
 msgstr ""
+"Minimum toegestane tekst in letters of in woorden (afhankelijk van de CfP "
+"instellingen)."
 
 #: pretalx/submission/models/question.py:142
 msgid "Maximum text length"
-msgstr ""
+msgstr "Maximum tekst-lengte"
 
 #: pretalx/submission/models/question.py:143
 msgid ""
 "Maximum allowed text lenght in characters or words (set in CfP settings)."
 msgstr ""
+"Maximum toegestane tekst-lengte in letters of woorden (afhankelijk van de "
+"CfP instellingen)."
 
 #: pretalx/submission/models/question.py:147
 msgid "Publish answers"
-msgstr ""
+msgstr "Publiceer antwoorden"
 
 #: pretalx/submission/models/question.py:148
 msgid ""
@@ -6185,6 +6224,10 @@ msgid ""
 "that you cannot make a question public after the first answers have been "
 "given, to allow speakers explicit consent before publishing information."
 msgstr ""
+"Antwoorden zullen getoond worden op sessie- of spreker-paginas waar "
+"toepasselijk. Noteer alstublieft dat je een vraag niet publiek kan maken na "
+"de eerste antwoorden ontvangen zijn, zodat sprekers expliciete instemming "
+"kunnen geven voordat de informatie gepubliceerd word."
 
 #: pretalx/submission/models/resource.py:21
 msgid "description"
@@ -6196,19 +6239,19 @@ msgstr "Wat vind je ervan?"
 
 #: pretalx/submission/models/review.py:117
 msgid "Phase start"
-msgstr ""
+msgstr "Fase start"
 
 #: pretalx/submission/models/review.py:118
 msgid "Phase end"
-msgstr ""
+msgstr "Fase einde"
 
 #: pretalx/submission/models/review.py:123
 msgid "Reviewers can write and edit reviews"
-msgstr ""
+msgstr "Redacteurs kunnen reviews schrijven en aanpassen"
 
 #: pretalx/submission/models/review.py:127
 msgid "Reviewers can see other reviews"
-msgstr ""
+msgstr "Redacteurs kunnen andere reviews zien"
 
 #: pretalx/submission/models/review.py:129
 msgid "Always"
@@ -6220,25 +6263,27 @@ msgstr "Nooit"
 
 #: pretalx/submission/models/review.py:129
 msgid "After reviewing the submission"
-msgstr ""
+msgstr "Na reviewen van de inzending"
 
 #: pretalx/submission/models/review.py:133
 msgid "Reviewers can see speaker names"
-msgstr ""
+msgstr "Redacteurs kunnen namen van sprekers zien"
 
 #: pretalx/submission/models/review.py:137
 msgid "Reviewers can accept and reject submissions"
-msgstr ""
+msgstr "Redacteurs kunnen inzendingen aanvaarden of weigeren"
 
 #: pretalx/submission/models/review.py:141
 msgid "Speakers can modify their submissions before acceptance"
-msgstr ""
+msgstr "Sprekers kunnen hun inzendingen aanpassen voordat ze aanvaard zijn"
 
 #: pretalx/submission/models/review.py:142
 msgid ""
 "By default, modification of submissions is locked after the CfP ends, and is "
 "re-enabled once the submission was accepted."
 msgstr ""
+"Standaard zijn aanpassingen aan inzendingen niet toegestaan vanaf het "
+"aflopen van de CfP tot het aanvaarden van de inzending."
 
 #: pretalx/submission/models/submission.py:58
 msgid "rejected"
@@ -6246,45 +6291,53 @@ msgstr "afgewezen"
 
 #: pretalx/submission/models/submission.py:146
 msgid "Submission state"
-msgstr ""
+msgstr "Inzendings-status"
 
 #: pretalx/submission/models/submission.py:162
 msgid "These notes are meant for the organiser and won't be made public."
 msgstr ""
+"Deze notities zijn bestemt voor de organisator en zullen niet gepubliceerd "
+"worden."
 
 #: pretalx/submission/models/submission.py:167
 msgid "Internal notes"
-msgstr ""
+msgstr "Interne notities"
 
 #: pretalx/submission/models/submission.py:168
 msgid ""
 "Internal notes for other organisers/reviewers. Not visible to the speakers "
 "or the public."
 msgstr ""
+"Interne notities voor andere organisatoren/redacteurs. Niet zichtbaar voor "
+"sprekers of publiek."
 
 #: pretalx/submission/models/submission.py:175
 msgid ""
 "The duration in minutes. Leave empty for default duration for this "
 "submission type."
 msgstr ""
+"De lengte in minuten. Laat leeg voor de standaard lengte voor dit type van "
+"inzending."
 
 #: pretalx/submission/models/submission.py:182
 msgid "How many times this talk will be held."
-msgstr ""
+msgstr "Hoe vaak deze sessie zal doorgaan."
 
 #: pretalx/submission/models/submission.py:194
 msgid ""
 "Show this talk on the public sneak peek page, if the sneak peek page is "
 "enabled and the talk was accepted."
 msgstr ""
+"Toon deze sessie op de publieke sneak peek pagina, als deze aangezet is en "
+"de talk aanvaard is."
 
 #: pretalx/submission/models/submission.py:198
 msgid "Don't record this talk."
-msgstr ""
+msgstr "Neem deze sessie niet op."
 
 #: pretalx/submission/models/submission.py:205
 msgid "Use this if you want an illustration to go with your submission."
-msgstr ""
+msgstr "Gebruik dit als je een illustratie bij je inzending wil meegeven."
 
 #: pretalx/submission/models/submission.py:329
 msgctxt ""
@@ -6297,6 +6350,7 @@ msgstr " of "
 #, python-brace-format
 msgid "Submission must be {src_states} not {state} to be {new_state}."
 msgstr ""
+"Inzending moet {src_states} zijn, niet {state}, om {new_state} te worden."
 
 #: pretalx/submission/models/type.py:29
 msgid "name"
@@ -6304,27 +6358,29 @@ msgstr "naam"
 
 #: pretalx/submission/models/type.py:32
 msgid "default duration"
-msgstr ""
+msgstr "standaard lengte"
 
 #: pretalx/submission/models/type.py:33
 msgid "Default duration in minutes"
-msgstr ""
+msgstr "Standaard lengte in minuten"
 
 #: pretalx/submission/models/type.py:39
 msgid ""
 "If you want a different deadline than the global deadline for this "
 "submission type, enter it here."
 msgstr ""
+"Als je een andere deadline wil dan de algemene deadline voor dit type van "
+"inzending, vul dit hier in."
 
 #: pretalx/submission/models/type.py:53
 #, python-brace-format
 msgid "{name} ({duration} days)"
-msgstr ""
+msgstr "{name} ({duration} dagen)"
 
 #: pretalx/submission/models/type.py:58
 #, python-brace-format
 msgid "{name} ({duration} hours)"
-msgstr ""
+msgstr "{name} ({duration} uren)"
 
 #: pretalx/submission/models/type.py:62
 #, python-brace-format
