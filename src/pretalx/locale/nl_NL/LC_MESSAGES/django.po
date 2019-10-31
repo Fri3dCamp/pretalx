@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-28 13:24+0000\n"
-"PO-Revision-Date: 2019-10-31 22:21+0100\n"
+"PO-Revision-Date: 2019-10-31 22:28+0100\n"
 "Last-Translator: Toon Van de Putte\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -133,7 +133,7 @@ msgstr ""
 
 #: pretalx/agenda/phrases.py:42
 msgid "This talk will not be recorded."
-msgstr "Deze activiteit wordt niet opgenomen."
+msgstr "Van deze activiteit wordt geen opname gemaakt."
 
 #: pretalx/agenda/phrases.py:43
 msgid "Other talks by this speaker:"
@@ -5924,9 +5924,7 @@ msgstr "Wachtwoordherstel"
 
 #: pretalx/schedule/forms.py:21
 msgid "Please click and drag to mark the availability during the conference."
-msgstr ""
-"Klik en sleep alstublief om de beschikbaarheid tijdens de conferentie aan te "
-"duiden."
+msgstr "Klik en sleep om je beschikbaarheid aan te duiden."
 
 #: pretalx/schedule/forms.py:83
 msgid "The submitted availability does not comply with the required format."
