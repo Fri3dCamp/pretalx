@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-28 13:24+0000\n"
-"PO-Revision-Date: 2019-10-27 18:42+0100\n"
+"PO-Revision-Date: 2019-10-31 22:21+0100\n"
 "Last-Translator: Toon Van de Putte\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: pretalx/agenda/phrases.py:8
 msgid "Thank you for your feedback!"
@@ -56,31 +56,31 @@ msgstr "Het eerste schema werd vrijgegeven."
 
 #: pretalx/agenda/phrases.py:20
 msgid "We have new talks!"
-msgstr "We hebben nieuwe sessies!"
+msgstr "We hebben nieuwe activiteiten!"
 
 #: pretalx/agenda/phrases.py:21
 msgid "We have a new talk: "
-msgstr "We hebben een nieuwe sessie: "
+msgstr "We hebben een nieuwe activiteit: "
 
 #: pretalx/agenda/phrases.py:22
 msgid "Sadly, we had to cancel talks:"
-msgstr "Helaas moesten we de sessies annuleren:"
+msgstr "Helaas moesten we activiteiten annuleren:"
 
 #: pretalx/agenda/phrases.py:23
 msgid "We sadly had to cancel a talk: "
-msgstr "Helaas moesten we de sessie annuleren: "
+msgstr "Helaas moesten we activiteiten annuleren: "
 
 #: pretalx/agenda/phrases.py:24
 msgid ""
 "We had to move some talks, so if you were planning on seeing them, check "
 "their new dates or locations:"
 msgstr ""
-"We moesten een aantal sessies verplaatsen, dus als je van plan bent om ze te "
-"zien, controleer dan hun nieuwe data of locaties:"
+"We moesten een aantal activiteiten verplaatsen, dus als je van plan bent om "
+"ze te zien, controleer dan hun nieuwe data of locaties:"
 
 #: pretalx/agenda/phrases.py:25
 msgid "We have moved a talk around: "
-msgstr "We hebben een sessie verplaatst: "
+msgstr "We hebben een activiteit verplaatst: "
 
 #: pretalx/agenda/phrases.py:27
 #: pretalx/cfp/templates/cfp/event/user_submissions.html:76
@@ -92,12 +92,12 @@ msgstr "Feedback"
 msgid "This review is for you personally, not for all speakers in this talk."
 msgstr ""
 "Deze beoordeling is voor jou persoonlijk, niet voor alle sprekers in deze "
-"sessie."
+"activiteit."
 
 #: pretalx/agenda/phrases.py:29
 #: pretalx/orga/templates/orga/submission/feedback_list.html:13
 msgid "There has been no feedback for this talk yet."
-msgstr "Er is nog geen feedback voor deze sessie."
+msgstr "Er is nog geen feedback voor deze activiteit."
 
 #: pretalx/agenda/phrases.py:31
 msgid "Send feedback"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: pretalx/agenda/phrases.py:39
 msgid "You can't give feedback for this talk at this time."
-msgstr "Je kunt op dit moment geen feedback geven voor deze sessie."
+msgstr "Je kunt op dit moment geen feedback geven voor deze activiteit."
 
 #: pretalx/agenda/phrases.py:41
 msgid ""
@@ -133,11 +133,11 @@ msgstr ""
 
 #: pretalx/agenda/phrases.py:42
 msgid "This talk will not be recorded."
-msgstr "Deze sessie wordt niet opgenomen."
+msgstr "Deze activiteit wordt niet opgenomen."
 
 #: pretalx/agenda/phrases.py:43
 msgid "Other talks by this speaker:"
-msgstr "Andere sessies van deze spreker:"
+msgstr "Andere activiteiten van deze spreker:"
 
 #: pretalx/agenda/phrases.py:44
 msgid "This speaker also holds:"
@@ -239,7 +239,7 @@ msgstr "Feed"
 #: pretalx/agenda/templates/agenda/schedule.html:150
 #, python-format
 msgid "No talks on %(weekday)s, %(current_day)s."
-msgstr "Geen sessies op %(weekday)s %(current_day)s."
+msgstr "Geen activiteiten op %(weekday)s %(current_day)s."
 
 #: pretalx/agenda/templates/agenda/sneakpeek.html:8
 msgid "Welcome to our schedule sneak peek!"
@@ -251,7 +251,7 @@ msgid ""
 "conference. Please keep in mind that this is not our full schedule. We will "
 "follow up with the full schedule in time, stay tuned!"
 msgstr ""
-"We hebben een lijst van boeiende sessies voorbereid, zodat je een idee "
+"We hebben een lijst van boeiende activiteiten voorbereid, zodat je een idee "
 "krijgt van {event}. Houd er rekening mee dat dit niet ons volledige schema "
 "is. We zullen regelmatig het programma updaten, kom regelmatig checken!"
 
@@ -260,7 +260,7 @@ msgid ""
 "In the near future you will see a curated list of talks we'd like to show "
 "off here. Right now we are busy reviewing submissions.<br> Check back later!"
 msgstr ""
-"In de nabije toekomst zie je een samengestelde lijst van sessies die we "
+"In de nabije toekomst zie je een samengestelde lijst van activiteiten die we "
 "graag willen laten zien. Momenteel zijn we bezig met het beoordelen van "
 "inzendingen.<br>Check later terug!"
 
@@ -280,7 +280,7 @@ msgstr "Zie ook:"
 
 #: pretalx/agenda/templates/agenda/talk.html:126
 msgid "This talk's header image"
-msgstr "De header afbeelding van deze sessie"
+msgstr "De header afbeelding van deze activiteit"
 
 #: pretalx/agenda/templates/agenda/talk.html:136
 #: pretalx/orga/templates/orga/submission/review.html:88
@@ -296,7 +296,7 @@ msgstr "Taal"
 
 #: pretalx/agenda/templates/agenda/talks.html:30
 msgid "No talk matches your search."
-msgstr "Geen enkele sessie komt overeen met je zoekopdracht."
+msgstr "Geen enkele activiteit komt overeen met je zoekopdracht."
 
 #: pretalx/agenda/views/schedule.py:141
 msgid "No speakers"
@@ -315,7 +315,7 @@ msgstr ""
 #: pretalx/agenda/views/talk.py:143
 #, python-brace-format
 msgid "The talk “{title}” at {event}"
-msgstr "De sessie \"{title}\" op {event}"
+msgstr "De activiteit \"{title}\" op {event}"
 
 #: pretalx/cfp/forms/auth.py:30 pretalx/person/forms.py:232
 msgid "New password"
@@ -342,7 +342,7 @@ msgstr "Tekst"
 #: pretalx/submission/models/submission.py:606
 #, python-brace-format
 msgid "{speaker} invites you to join their talk!"
-msgstr "{speaker} nodigt je uit om naar hun sessie te komen!"
+msgstr "{speaker} nodigt je uit om naar hun activiteit te komen!"
 
 #: pretalx/cfp/forms/submissions.py:18
 #: pretalx/submission/models/submission.py:611
@@ -363,7 +363,7 @@ msgid ""
 msgstr ""
 "Hallo!\n"
 "\n"
-"Ik wil je uitnodigen om een spreker te zijn in de sessie\n"
+"Ik wil je uitnodigen om een spreker te zijn in de activiteit\n"
 "\n"
 "\n"
 "  “{title}”\n"
@@ -470,14 +470,14 @@ msgstr "Dit event accepteert momenteel geen nieuwe inzendingen, sorry!"
 
 #: pretalx/cfp/phrases.py:38
 msgid "Your talk has been submitted successfully!"
-msgstr "Je sessie is succesvol ingezonden!"
+msgstr "Je activiteit is succesvol ingezonden!"
 
 #: pretalx/cfp/phrases.py:39
 msgid ""
 "We are experiencing difficulties when sending mails, but your talk was "
 "submitted successfully!"
 msgstr ""
-"We ondervinden moeilijkheden bij het verzenden van mails, maar je sessie "
+"We ondervinden moeilijkheden bij het verzenden van mails, maar je activiteit "
 "werd succesvol ingezonden!"
 
 #: pretalx/cfp/templates/cfp/event/cfp.html:20
@@ -697,7 +697,7 @@ msgid ""
 "This information will be publicly displayed next to your talk - you can "
 "always edit for as long as submissions are still open."
 msgstr ""
-"Deze informatie wordt publiek weergegeven naast je sessie - je kan dit "
+"Deze informatie wordt publiek weergegeven naast je activiteit - je kan dit "
 "altijd bewerken zolang inzendingen nog open zijn."
 
 #: pretalx/cfp/templates/cfp/event/submission_profile.html:26
@@ -832,7 +832,8 @@ msgid ""
 "talks, and overriding my public and private data."
 msgstr ""
 "Ik wil echt mijn account verwijderen, de toegang tot mijn inzendingen en "
-"sessies kwijtraken en mijn openbare en persoonlijke gegevens overschrijven."
+"activiteiten kwijtraken en mijn openbare en persoonlijke gegevens "
+"overschrijven."
 
 #: pretalx/cfp/templates/cfp/event/user_profile.html:115
 msgid "Delete my account"
@@ -876,15 +877,15 @@ msgstr "Volgen"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:20
 msgid "Congratulations on your acceptance!"
-msgstr "Joepie, je sessie is aanvaard!"
+msgstr "Joepie, je activiteit is aanvaard!"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:24
 msgid ""
 "Please provide us with your available hours during the event, so that we can "
 "schedule your event accordingly:<p>"
 msgstr ""
-"Geef je beschikbare uren tijdens het event, zodat we je sessie hierin kunnen "
-"plannen:<p>"
+"Geef je beschikbare uren tijdens het event, zodat we je activiteit hierin "
+"kunnen plannen:<p>"
 
 #: pretalx/cfp/templates/cfp/event/user_submission_confirm.html:41
 msgid ""
@@ -926,7 +927,7 @@ msgstr "Feedback van het publiek"
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:40
 msgid "Attendees can leave feedback here after your talk has taken place."
 msgstr ""
-"Deelnemers kunnen hier feedback achterlaten nadat je sessie heeft "
+"Deelnemers kunnen hier feedback achterlaten nadat je activiteit heeft "
 "plaatsgevonden."
 
 #: pretalx/cfp/templates/cfp/event/user_submission_edit.html:48
@@ -2537,8 +2538,8 @@ msgstr ""
 "{notifications}\n"
 "\n"
 "We kijken ernaar uit je te zien!\n"
-"Neem contact met ons op als er een probleem is met je sessie of toegewezen "
-"slot.\n"
+"Neem contact met ons op als er een probleem is met je activiteit of "
+"toegewezen slot.\n"
 "\n"
 "De {event_name} organisatoren"
 
@@ -2639,7 +2640,7 @@ msgstr "Gebruik tracks"
 
 #: pretalx/orga/forms/cfp.py:15
 msgid "Do you organise your talks by tracks?"
-msgstr "Organiseer je sessies per track?"
+msgstr "Organiseer je activiteiten per track?"
 
 #: pretalx/orga/forms/cfp.py:18 pretalx/submission/models/submission.py:180
 msgid "Slot Count"
@@ -2647,7 +2648,7 @@ msgstr "Tijdslot teller"
 
 #: pretalx/orga/forms/cfp.py:20
 msgid "Can talks be held multiple times?"
-msgstr "Kunnen sessies meerdere keren doorgaan?"
+msgstr "Kunnen activiteiten meerdere keren doorgaan?"
 
 #: pretalx/orga/forms/cfp.py:23
 msgid "Display deadline publicly"
@@ -2759,12 +2760,11 @@ msgid "Show a sneak peek before schedule release"
 msgstr "Licht een tipje van de sluier op voor het programma vrijgegeven wordt"
 
 #: pretalx/orga/forms/event.py:159
-#, fuzzy
 msgid ""
 "Set to publicly display a list of talks, which have the \"is featured\" flag "
 "enabled."
 msgstr ""
-"Zet aan om een publieke lijst van sessies te tonen, welke als \"is featured"
+"Zet aan om een publieke lijst van activiteiten te tonen, die als \"featured"
 "\" gemarkeerd zijn."
 
 #: pretalx/orga/forms/event.py:164
@@ -3009,7 +3009,7 @@ msgstr "Iedereen met inzendingen die nog niet aanvaard of geweigerd zijn"
 
 #: pretalx/orga/forms/mails.py:91
 msgid "All accepted speakers (who have not confirmed their talk yet)"
-msgstr "Alle aanvaarde sprekers (die hun sessie nog niet geconfirmeerd hebben)"
+msgstr "Alle aanvaarde sprekers (die hun activiteit nog niet bevestigd hebben)"
 
 #: pretalx/orga/forms/mails.py:93
 msgid "All confirmed speakers"
@@ -3084,8 +3084,8 @@ msgid ""
 "The email address of the speaker holding the talk. They will be invited to "
 "create an account."
 msgstr ""
-"Het email adres van de spreker die de sessie voorziet. Ze zullen een "
-"invitatie krijgen om een account aan te maken."
+"Het email adres van de spreker die de activiteit voorziet. Ze zullen een "
+"uitnodiging krijgen om een account aan te maken."
 
 #: pretalx/orga/forms/submission.py:25
 msgid "Speaker name"
@@ -3132,8 +3132,8 @@ msgid ""
 "Even the busiest event organisers should make time to see at least one "
 "talk ;)"
 msgstr ""
-"Zelfs de meest drukbezette event organisatoren zouden minstens één sessie "
-"moeten volgen ;)"
+"Zelfs de meest drukbezette event organisatoren zouden minstens één "
+"activiteit moeten volgen ;)"
 
 #: pretalx/orga/phrases.py:21
 msgid "Pudding"
@@ -3149,35 +3149,33 @@ msgstr "Chocoladekoekjes"
 
 #: pretalx/orga/phrases.py:24
 msgid "I think this talk is well-suited to this conference, because ..."
-msgstr "Ik denk dat deze sessie geschikt is voor deze conferentie, omdat ..."
+msgstr "Ik denk dat deze activiteit geschikt is voor dit event, omdat ..."
 
 #: pretalx/orga/phrases.py:25
 msgid "I think this talk might fit the conference better, if ..."
-msgstr ""
-"Ik denk dat deze sessie geschikter zou zijn voor deze conferentie zou zijn "
-"als ..."
+msgstr "Ik denk dat deze activiteit geschikter zou zijn voor dit event als ..."
 
 #: pretalx/orga/phrases.py:26
 msgid "I think this talk sounds like a perfect fit for Day 2, since ..."
-msgstr "Deze sessie lijkt me excellent voor Dag 2, omdat ..."
+msgstr "Deze activiteit lijkt me uitstekend voor Dag 2, omdat ..."
 
 #: pretalx/orga/phrases.py:27
 msgid "I think this talk might be improved by adding ..."
-msgstr "Ik denk dat deze sessie beter kan gemaakt worden door ..."
+msgstr "Ik denk dat deze activiteit beter kan gemaakt worden door ..."
 
 #: pretalx/orga/phrases.py:28
 msgid "I have heard a similar talk by this speaker, and I think ..."
 msgstr ""
-"Ik heb een gelijkaardige sessie gezien van deze spreker, en ik denk ..."
+"Ik heb een gelijkaardige activiteit gezien van deze spreker, en ik denk ..."
 
 #: pretalx/orga/phrases.py:29
 msgid "In my opinion, this talk will appeal to ..."
-msgstr "In mijn mening zal deze sessie de volgende mensen aanspreken ..."
+msgstr "Volgens mij zal deze activiteit de volgende mensen aanspreken ..."
 
 #: pretalx/orga/phrases.py:30
 msgid "While I think the talk is a great fit, it might be improved by ..."
 msgstr ""
-"Terwijl ik deze sessie goed vind passen, kan het beter gemaakt worden "
+"Terwijl ik deze activiteit goed vind passen, kan het beter gemaakt worden "
 "door ..."
 
 #: pretalx/orga/phrases.py:33
@@ -3201,8 +3199,8 @@ msgid ""
 "Conferences build on good talk selection – which builds on reviewers like "
 "you!"
 msgstr ""
-"Conferenties zijn gebouwd op goede sessie-keuzes, en dat is gebouwd op goeie "
-"redacteurs zoals jij!"
+"Events zijn gebouwd op een goede selectie van activiteiten, en die is "
+"gebouwd op goeie redacteurs zoals jij!"
 
 #: pretalx/orga/phrases.py:38
 msgid "Remember to take a break between reviews, occasionally."
@@ -3705,8 +3703,8 @@ msgid ""
 "vs workshop vs metal concert)."
 msgstr ""
 "Verschillende inzending-types kunnen sprekers gidsen naar verschillende "
-"tijdslot-lengtes (korte sessies vs lange sessies), of verschillende "
-"presentatieformaten (sessie vs workshop vs metal concert)."
+"tijdslot-lengtes (korte activiteiten vs lange activiteiten), of "
+"verschillende soorten activiteit (talk vs workshop vs metal concert)."
 
 #: pretalx/orga/templates/orga/cfp/submission_type_view.html:17
 msgid "Default duration"
@@ -3735,7 +3733,7 @@ msgstr ""
 
 #: pretalx/orga/templates/orga/cfp/text.html:22
 msgid "The formats (talks, workshops, panels) and their durations"
-msgstr "De formaten (sessies, workshops, panels) en hun tijdsduur"
+msgstr "De soorten activiteit (talks, workshops, panels) en hun tijdsduur"
 
 #: pretalx/orga/templates/orga/cfp/text.html:23
 msgid "Topics you are looking for"
@@ -3761,7 +3759,7 @@ msgid ""
 "speakers?"
 msgstr ""
 "Geef je financiële of andere ondersteuning, bijvoorbeeld ondersteuning voor "
-"mensen die nog nooit een sessie gegeven hebben?"
+"mensen die nog nooit een activiteit gegeven hebben?"
 
 #: pretalx/orga/templates/orga/cfp/text.html:28
 msgid "Dates and location"
@@ -3830,7 +3828,7 @@ msgstr "Opt-out knop voor opnemen"
 #: pretalx/orga/templates/orga/cfp/text.html:132
 #: pretalx/submission/models/submission.py:204
 msgid "Talk image"
-msgstr "Afbeelding van de sessie"
+msgstr "Afbeelding van de activiteit"
 
 #: pretalx/orga/templates/orga/cfp/text.html:139
 #: pretalx/submission/models/submission.py:173
@@ -3853,8 +3851,8 @@ msgid ""
 "themselves. Track colors are helpful to help attendees navigate your "
 "schedule."
 msgstr ""
-"Tracks worden gebruikt om je sessies in categorieën onder te verdelen. Je "
-"kan de CfP instellingen aanpassen zodat sprekers zelf hun track kunnen "
+"Tracks worden gebruikt om je activiteiten in categorieën onder te verdelen. "
+"Je kan de CfP instellingen aanpassen zodat sprekers zelf hun track kunnen "
 "kiezen. Track kleuren zijn een hulpje voor bezoekers die je programma "
 "bekijken."
 
@@ -3998,7 +3996,7 @@ msgid ""
 msgstr ""
 "Hoe ziet je timeline er uit? Je kan later nog inzending-types bijmaken met "
 "andere deadlines (als je bijvoorbeeld workshop inzendingen later accepteert "
-"dan sessie inzendingen)."
+"dan talk inzendingen)."
 
 #: pretalx/orga/templates/orga/event_list.html:21
 #: pretalx/orga/templates/orga/event_list.html:42
@@ -4453,9 +4451,9 @@ msgid ""
 "talks specified in the XML file. The format is expected to be the same as "
 "the XML export provided."
 msgstr ""
-"Upload hier een XML file om een nieuw programma vrij te geven, welk enkel de "
-"sessies bevat in deze XML file. Het formaat moet hetzelfde zijn als deze van "
-"de XML export."
+"Upload hier een XML file om een nieuw programma vrij te geven, dat enkel de "
+"activiteiten bevat in deze XML file. Het formaat moet hetzelfde zijn als dat "
+"van de XML export."
 
 #: pretalx/orga/templates/orga/schedule/import.html:20
 msgid "Upload"
@@ -4511,7 +4509,7 @@ msgid ""
 "talks to take place in."
 msgstr ""
 "Je kan je programma beginnen plannen eens dat je enkele ruimtes "
-"geconfigureerd hebt waarin sessies kunnen doorgaan."
+"geconfigureerd hebt waarin activiteiten kunnen doorgaan."
 
 #: pretalx/orga/templates/orga/schedule/index.html:84
 msgid "Configure rooms"
@@ -4519,7 +4517,7 @@ msgstr "Configureer ruimtes"
 
 #: pretalx/orga/templates/orga/schedule/quick.html:14
 msgid "Schedule talk"
-msgstr "Plan een sessie in"
+msgstr "Plan een activiteit in"
 
 #: pretalx/orga/templates/orga/schedule/release.html:8
 msgid "Release new schedule"
@@ -4551,7 +4549,8 @@ msgid ""
 msgstr ""
 "Wanneer dit nieuwe programma vrijgegeven word zullen <strong>"
 "%(notifications)s boodschap mails </strong> gegenereerd worden en in de "
-"outbox terecht komen, om sprekers in te lichten over hun sessie tijdslots."
+"outbox terecht komen, om sprekers in te lichten over de tijdslots van hun "
+"activiteit."
 
 #: pretalx/orga/templates/orga/schedule/release.html:32
 msgid ""
@@ -4567,19 +4566,20 @@ msgid ""
 "%(unconfirmed)s talks are still <strong>unconfirmed</strong> and will not "
 "show up on the public schedule."
 msgstr ""
-"%(unconfirmed)s sessies zijn nog <strong>onbevestigd</strong> en zullen niet "
-"getoond worden op het publiek programma."
+"%(unconfirmed)s activiteiten zijn nog <strong>onbevestigd</strong> en zullen "
+"niet getoond worden op het publiek programma."
 
 #: pretalx/orga/templates/orga/schedule/release.html:45
 #, python-format
 msgid "%(unscheduled)s talks have <strong>not yet been scheduled</strong>."
 msgstr ""
-"%(unscheduled)s sessies staan <strong>nog niet in het programma</strong>."
+"%(unscheduled)s activiteiten staan <strong>nog niet in het programma</"
+"strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:50
 #, python-format
 msgid "%(no_track)s talks have <strong>not yet been assigned a track</strong>."
-msgstr "%(no_track)s sessies hebben <strong>nog geen track</strong>."
+msgstr "%(no_track)s activiteiten hebben <strong>nog geen track</strong>."
 
 #: pretalx/orga/templates/orga/schedule/release.html:56
 msgid "Warnings"
@@ -4623,7 +4623,8 @@ msgstr "Beweeg ruimte naar boven"
 
 #: pretalx/orga/templates/orga/schedule/room_list.html:58
 msgid "Please add at least one place in which talks can take place."
-msgstr "Voeg ten minste één ruimte toe in welke sessies kunnen plaatsnemen."
+msgstr ""
+"Voeg ten minste één ruimte toe in welke activiteiten kunnen plaatsnemen."
 
 #: pretalx/orga/templates/orga/schedule/room_list.html:66
 msgid "New room"
@@ -4857,7 +4858,7 @@ msgstr[1] "inzenders"
 #: pretalx/orga/templates/orga/speaker/list.html:29
 #| msgid "Schedule talk"
 msgid "Scheduled Talks"
-msgstr "Geprogrammeerde sessies"
+msgstr "Geprogrammeerde activiteiten"
 
 #: pretalx/orga/templates/orga/speaker/list.html:30
 #| msgid "Accept or reject submissions"
@@ -5231,14 +5232,14 @@ msgstr "huidig programma"
 #: pretalx/orga/views/dashboard.py:150
 msgid "talk"
 msgid_plural "talks"
-msgstr[0] "sessie"
-msgstr[1] "sessies"
+msgstr[0] "activiteit"
+msgstr[1] "activiteiten"
 
 #: pretalx/orga/views/dashboard.py:162
 msgid "unconfirmed talk"
 msgid_plural "unconfirmed talks"
-msgstr[0] "onbevestigde sessie"
-msgstr[1] "onbevestigde sessies"
+msgstr[0] "onbevestigde activiteit"
+msgstr[1] "onbevestigde activiteiten"
 
 #: pretalx/orga/views/dashboard.py:172
 msgid "speaker"
@@ -5608,7 +5609,7 @@ msgstr ""
 
 #: pretalx/orga/views/schedule.py:297
 msgid "The talk has been scheduled."
-msgstr "De sessie zit in het programma."
+msgstr "De activiteit zit in het programma."
 
 #: pretalx/orga/views/schedule.py:342
 msgid "Room deleted. Hopefully nobody was still in there …"
@@ -5617,7 +5618,7 @@ msgstr "Ruimte gewist. Hopelijk zat er niemand meer in ..."
 #: pretalx/orga/views/schedule.py:348
 msgid "There is or was a talk scheduled in this room. It cannot be deleted."
 msgstr ""
-"Er is of was een sessie geprogrammeerd in deze ruimte. Ze kan niet "
+"Er is of was een activiteit geprogrammeerd in deze ruimte. Ze kan niet "
 "verwijderd worden."
 
 #: pretalx/orga/views/schedule.py:399
@@ -5997,7 +5998,7 @@ msgstr "Een spreker is niet beschikbaar op dat moment."
 #: pretalx/schedule/models/slot.py:151
 #| msgid "A speaker is not available at the scheduled time."
 msgid "A speaker is giving another talk at the scheduled time."
-msgstr "Een spreker geeft een andere sessie op dat moment."
+msgstr "Een spreker geeft een andere activiteit op dat moment."
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:1
 #, python-format
@@ -6006,7 +6007,7 @@ msgid ""
 "- Your talk “%(title)s” will take place at %(start)s in %(location)s"
 msgstr ""
 "\n"
-"- Je sessie “%(title)s” zal plaatsvinden om %(start)s in %(location)s"
+"- Je activiteit “%(title)s” zal plaatsvinden om %(start)s in %(location)s"
 
 #: pretalx/schedule/templates/schedule/speaker_notification.txt:2
 #, python-format
@@ -6015,7 +6016,7 @@ msgid ""
 "- Your talk “%(title)s” has been moved to %(start)s in %(location)s"
 msgstr ""
 "\n"
-"- Je sessie  “%(title)s” is verzet op %(start)s in %(location)s"
+"- Je activiteit  “%(title)s” is verplaatst naar %(start)s in %(location)s"
 
 #: pretalx/settings.py:313
 msgid "English"
@@ -6147,7 +6148,7 @@ msgstr "type van vraag"
 
 #: pretalx/submission/models/question.py:97
 msgid "Do you require an answer from every speaker or for every talk?"
-msgstr "Vereis je een antwoord van elke spreker voor elke sessie?"
+msgstr "Vereis je een antwoord van elke spreker voor elke activiteit?"
 
 #: pretalx/submission/models/question.py:102
 msgid ""
@@ -6224,7 +6225,7 @@ msgid ""
 "that you cannot make a question public after the first answers have been "
 "given, to allow speakers explicit consent before publishing information."
 msgstr ""
-"Antwoorden zullen getoond worden op sessie- of spreker-paginas waar "
+"Antwoorden zullen getoond worden op activiteit- of spreker-paginas waar "
 "toepasselijk. Noteer alstublieft dat je een vraag niet publiek kan maken na "
 "de eerste antwoorden ontvangen zijn, zodat sprekers expliciete instemming "
 "kunnen geven voordat de informatie gepubliceerd word."
@@ -6321,19 +6322,19 @@ msgstr ""
 
 #: pretalx/submission/models/submission.py:182
 msgid "How many times this talk will be held."
-msgstr "Hoe vaak deze sessie zal doorgaan."
+msgstr "Hoe vaak deze activiteit zal doorgaan."
 
 #: pretalx/submission/models/submission.py:194
 msgid ""
 "Show this talk on the public sneak peek page, if the sneak peek page is "
 "enabled and the talk was accepted."
 msgstr ""
-"Toon deze sessie op de publieke sneak peek pagina, als deze aangezet is en "
-"de talk aanvaard is."
+"Toon deze activiteit op de publieke sneak peek pagina, als deze aangezet is "
+"en de talk aanvaard is."
 
 #: pretalx/submission/models/submission.py:198
 msgid "Don't record this talk."
-msgstr "Neem deze sessie niet op."
+msgstr "Neem deze activiteit niet op."
 
 #: pretalx/submission/models/submission.py:205
 msgid "Use this if you want an illustration to go with your submission."
